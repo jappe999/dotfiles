@@ -5,8 +5,8 @@
 
 source_folder="$(dirname $(readlink -f $0))"
 export_folder="$HOME/.config/polybar"
-module_file="$export_folder/module"
-module_dir="$source_folder/modules.d"
+module_file="$export_folder/config"
+module_dir="$source_folder/modules"
 includes_file="$module_dir/index.ini"
 
 if [ -f "$includes_file" ]; then
@@ -51,5 +51,5 @@ if [ -f "$includes_file" ]; then
 else
   echo "ERROR:"
   echo "Please create the modules import file:"
-  echo " $includes_files"
+  echo " $includes_file"
 fi

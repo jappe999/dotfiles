@@ -44,7 +44,7 @@ sudo apt-get install -y\
     zsh pavucontrol feh pulseaudio git paper-icon-theme\
     yarn python3 python3-pip redshift telegram-desktop\
     fonts-source-code-pro-ttf docker-ce ubuntu-make vim\
-    postgresql-11 pgadmin4
+    postgresql-11 pgadmin4 mpd
 
 sudo snap install spotify
 pip3 install pywal
@@ -134,8 +134,7 @@ echo "
 Packages were installed. Please install the following apps manually:
 - Boostnote -> https://boostnote.io/
 - Virtualbox -> https://download.virtualbox.org/virtualbox/
-- Filezilla -> https://filezilla-project.org/
-- 
+- Filezilla -> https://filezilla-project.org/ 
 "
 
 while true; do
